@@ -19,40 +19,40 @@ function createPlayStopBtn(){                     //PŘIDÁ TLAČÍTKO PLAY/STOP
     waitForLoad(playStopBtn, status, listenPlayStopBtn);
 };
 
-// function waitForLoad(button, status, callback){ //Jednou za interval se zeptá, zda už je načteno
-//     let interval =  setInterval(function(){
-//         if(areTheyLoaded()){
-//             clearInterval(interval);
-//             callback(button,status)
-//         }
-//     }, 500);
-// };
+function waitForLoad(button, status, callback){ //Jednou za interval se zeptá, zda už je načteno
+    let interval =  setInterval(function(){
+        if(areTheyLoaded()){
+            clearInterval(interval);
+            callback(button,status)
+        }
+    }, 500);
+};
 
-// function areTheyLoaded(){               //Zjistí, zda je načteno
-//     let result = instruments.every(function(instrument){
-//         return instrument.howl._state === "loaded";
-//     });
-//     return result;
-// }  
+function areTheyLoaded(){               //Zjistí, zda je načteno
+    let result = instruments.every(function(instrument){
+        return instrument.howl._state === "loaded";
+    });
+    return result;
+}  
 
-// function listenPlayStopBtn(button,status){      //Přidá event listener a změní nápis tlačítka
-//     button.innerHTML = '<i class="far fa-play-circle"></i> ' + text.play;
-//     button.classList.remove('inactive');
-//     button.addEventListener('click', function (){
-//         if(status === "stopped"){
-//             playEverything();
-//             status = "playing";
-//             this.innerHTML = '<i class="far fa-stop-circle"></i> ' + text.stop;
-//             this.classList.add('active');
-//         }
-//         else{
-//             stopEverything();
-//             status = "stopped";
-//             this.innerHTML = '<i class="far fa-play-circle"></i> ' + text.play;
-//             this.classList.remove('active');
-//         }
-//     });
-// }; 
+function listenPlayStopBtn(button,status){      //Přidá event listener a změní nápis tlačítka
+    button.innerHTML = '<i class="far fa-play-circle"></i> ' + text.play;
+    button.classList.remove('inactive');
+    button.addEventListener('click', function (){
+        if(status === "stopped"){
+            playEverything();
+            status = "playing";
+            this.innerHTML = '<i class="far fa-stop-circle"></i> ' + text.stop;
+            this.classList.add('active');
+        }
+        else{
+            stopEverything();
+            status = "stopped";
+            this.innerHTML = '<i class="far fa-play-circle"></i> ' + text.play;
+            this.classList.remove('active');
+        }
+    });
+}; 
 
 function playEverything(){
     instruments.forEach(function(instrument){
