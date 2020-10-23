@@ -184,7 +184,6 @@ section button i {
   font-size: 3.8em;
   padding: 0.2em 0.3em;
   margin-bottom: 0.2em;
-  border: none;
   border-radius: 5px;
   outline: none;
   background: #1f3c49;
@@ -234,10 +233,7 @@ section button i {
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: 5rem 1fr auto auto;
-  grid-template-areas: "mheader mheader"
- "overlay overlay"
- "overlay overlay"
- "overlay overlay";
+  grid-template-areas: "mheader mheader" "overlay overlay" "overlay overlay" "overlay overlay";
   align-items: center;
   align-content: center;
 }
@@ -386,11 +382,9 @@ body {
 }
 
 @media (min-width: 1200px) {
-  button:hover:not(.inactive) {
-    opacity: 1;
-  }
   button:hover:not(.inactive) i {
     text-shadow: 0 0 2px white;
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */

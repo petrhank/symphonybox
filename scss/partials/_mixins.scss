@@ -3,7 +3,6 @@
     color: white;
     border: none;
     outline: none;
-
     &.active{
         opacity: 1;
     }
@@ -11,9 +10,9 @@
 
 @mixin btnHover{
     &:hover:not(.inactive){
-        opacity: 1;
         i{
             text-shadow: 0 0 2px white;
+            opacity: 1;
         }
 
     }
