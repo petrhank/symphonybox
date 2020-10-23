@@ -1,0 +1,239 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 01/07/2016 11:12
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-accordion:before { content: "\f100"; }
+.flaticon-acoustic-guitar:before { content: "\f101"; }
+.flaticon-alboka:before { content: "\f102"; }
+.flaticon-bagpipes:before { content: "\f103"; }
+.flaticon-balalaika:before { content: "\f104"; }
+.flaticon-banjo:before { content: "\f105"; }
+.flaticon-barytone:before { content: "\f106"; }
+.flaticon-bass:before { content: "\f107"; }
+.flaticon-bass-1:before { content: "\f108"; }
+.flaticon-bassoon:before { content: "\f109"; }
+.flaticon-bells:before { content: "\f10a"; }
+.flaticon-bongos:before { content: "\f10b"; }
+.flaticon-cabasa:before { content: "\f10c"; }
+.flaticon-cajon:before { content: "\f10d"; }
+.flaticon-castanets:before { content: "\f10e"; }
+.flaticon-cello:before { content: "\f10f"; }
+.flaticon-chimes:before { content: "\f110"; }
+.flaticon-cigar-box-guitar:before { content: "\f111"; }
+.flaticon-clarinet:before { content: "\f112"; }
+.flaticon-clarinet-1:before { content: "\f113"; }
+.flaticon-clave:before { content: "\f114"; }
+.flaticon-concertina:before { content: "\f115"; }
+.flaticon-conch:before { content: "\f116"; }
+.flaticon-conga:before { content: "\f117"; }
+.flaticon-cowbell:before { content: "\f118"; }
+.flaticon-cymbals:before { content: "\f119"; }
+.flaticon-didgeridoo:before { content: "\f11a"; }
+.flaticon-djembe:before { content: "\f11b"; }
+.flaticon-double-bass:before { content: "\f11c"; }
+.flaticon-drum:before { content: "\f11d"; }
+.flaticon-drum-1:before { content: "\f11e"; }
+.flaticon-drum-2:before { content: "\f11f"; }
+.flaticon-drum-3:before { content: "\f120"; }
+.flaticon-drum-4:before { content: "\f121"; }
+.flaticon-drumsticks:before { content: "\f122"; }
+.flaticon-dulcimer:before { content: "\f123"; }
+.flaticon-dulzaina:before { content: "\f124"; }
+.flaticon-ektara:before { content: "\f125"; }
+.flaticon-electric-guitar:before { content: "\f126"; }
+.flaticon-flute:before { content: "\f127"; }
+.flaticon-flute-1:before { content: "\f128"; }
+.flaticon-flute-2:before { content: "\f129"; }
+.flaticon-flute-3:before { content: "\f12a"; }
+.flaticon-french-horn:before { content: "\f12b"; }
+.flaticon-gong:before { content: "\f12c"; }
+.flaticon-gong-1:before { content: "\f12d"; }
+.flaticon-guzheng:before { content: "\f12e"; }
+.flaticon-handpan:before { content: "\f12f"; }
+.flaticon-harmonica:before { content: "\f130"; }
+.flaticon-harmonium:before { content: "\f131"; }
+.flaticon-harp:before { content: "\f132"; }
+.flaticon-harp-1:before { content: "\f133"; }
+.flaticon-jug:before { content: "\f134"; }
+.flaticon-kazoo:before { content: "\f135"; }
+.flaticon-kemenche:before { content: "\f136"; }
+.flaticon-keyboard:before { content: "\f137"; }
+.flaticon-keytar:before { content: "\f138"; }
+.flaticon-keytar-1:before { content: "\f139"; }
+.flaticon-lute:before { content: "\f13a"; }
+.flaticon-mandolin:before { content: "\f13b"; }
+.flaticon-maracas:before { content: "\f13c"; }
+.flaticon-marimba:before { content: "\f13d"; }
+.flaticon-mouth-harp:before { content: "\f13e"; }
+.flaticon-multi-neck-guitar:before { content: "\f13f"; }
+.flaticon-oboe:before { content: "\f140"; }
+.flaticon-oboe-1:before { content: "\f141"; }
+.flaticon-ocarina:before { content: "\f142"; }
+.flaticon-omnichord:before { content: "\f143"; }
+.flaticon-organ:before { content: "\f144"; }
+.flaticon-organ-1:before { content: "\f145"; }
+.flaticon-organ-2:before { content: "\f146"; }
+.flaticon-percussion-instrument:before { content: "\f147"; }
+.flaticon-percussion-instruments:before { content: "\f148"; }
+.flaticon-piano:before { content: "\f149"; }
+.flaticon-piccolo:before { content: "\f14a"; }
+.flaticon-psaltery:before { content: "\f14b"; }
+.flaticon-resonator-guitar:before { content: "\f14c"; }
+.flaticon-santoor:before { content: "\f14d"; }
+.flaticon-saw:before { content: "\f14e"; }
+.flaticon-saxophone:before { content: "\f14f"; }
+.flaticon-shaker:before { content: "\f150"; }
+.flaticon-singing-bowl:before { content: "\f151"; }
+.flaticon-sitar:before { content: "\f152"; }
+.flaticon-spanish-guitar:before { content: "\f153"; }
+.flaticon-steel-guitar:before { content: "\f154"; }
+.flaticon-stylophone:before { content: "\f155"; }
+.flaticon-tambourine:before { content: "\f156"; }
+.flaticon-tambourine-1:before { content: "\f157"; }
+.flaticon-theremin:before { content: "\f158"; }
+.flaticon-triangle:before { content: "\f159"; }
+.flaticon-trombone:before { content: "\f15a"; }
+.flaticon-trumpet:before { content: "\f15b"; }
+.flaticon-tuba:before { content: "\f15c"; }
+.flaticon-ukelele:before { content: "\f15d"; }
+.flaticon-veena:before { content: "\f15e"; }
+.flaticon-vihuela:before { content: "\f15f"; }
+.flaticon-violin:before { content: "\f160"; }
+.flaticon-whistle:before { content: "\f161"; }
+.flaticon-wood-block:before { content: "\f162"; }
+.flaticon-xylophone:before { content: "\f163"; }
+    
+    $font-Flaticon-accordion: "\f100";
+    $font-Flaticon-acoustic-guitar: "\f101";
+    $font-Flaticon-alboka: "\f102";
+    $font-Flaticon-bagpipes: "\f103";
+    $font-Flaticon-balalaika: "\f104";
+    $font-Flaticon-banjo: "\f105";
+    $font-Flaticon-barytone: "\f106";
+    $font-Flaticon-bass: "\f107";
+    $font-Flaticon-bass-1: "\f108";
+    $font-Flaticon-bassoon: "\f109";
+    $font-Flaticon-bells: "\f10a";
+    $font-Flaticon-bongos: "\f10b";
+    $font-Flaticon-cabasa: "\f10c";
+    $font-Flaticon-cajon: "\f10d";
+    $font-Flaticon-castanets: "\f10e";
+    $font-Flaticon-cello: "\f10f";
+    $font-Flaticon-chimes: "\f110";
+    $font-Flaticon-cigar-box-guitar: "\f111";
+    $font-Flaticon-clarinet: "\f112";
+    $font-Flaticon-clarinet-1: "\f113";
+    $font-Flaticon-clave: "\f114";
+    $font-Flaticon-concertina: "\f115";
+    $font-Flaticon-conch: "\f116";
+    $font-Flaticon-conga: "\f117";
+    $font-Flaticon-cowbell: "\f118";
+    $font-Flaticon-cymbals: "\f119";
+    $font-Flaticon-didgeridoo: "\f11a";
+    $font-Flaticon-djembe: "\f11b";
+    $font-Flaticon-double-bass: "\f11c";
+    $font-Flaticon-drum: "\f11d";
+    $font-Flaticon-drum-1: "\f11e";
+    $font-Flaticon-drum-2: "\f11f";
+    $font-Flaticon-drum-3: "\f120";
+    $font-Flaticon-drum-4: "\f121";
+    $font-Flaticon-drumsticks: "\f122";
+    $font-Flaticon-dulcimer: "\f123";
+    $font-Flaticon-dulzaina: "\f124";
+    $font-Flaticon-ektara: "\f125";
+    $font-Flaticon-electric-guitar: "\f126";
+    $font-Flaticon-flute: "\f127";
+    $font-Flaticon-flute-1: "\f128";
+    $font-Flaticon-flute-2: "\f129";
+    $font-Flaticon-flute-3: "\f12a";
+    $font-Flaticon-french-horn: "\f12b";
+    $font-Flaticon-gong: "\f12c";
+    $font-Flaticon-gong-1: "\f12d";
+    $font-Flaticon-guzheng: "\f12e";
+    $font-Flaticon-handpan: "\f12f";
+    $font-Flaticon-harmonica: "\f130";
+    $font-Flaticon-harmonium: "\f131";
+    $font-Flaticon-harp: "\f132";
+    $font-Flaticon-harp-1: "\f133";
+    $font-Flaticon-jug: "\f134";
+    $font-Flaticon-kazoo: "\f135";
+    $font-Flaticon-kemenche: "\f136";
+    $font-Flaticon-keyboard: "\f137";
+    $font-Flaticon-keytar: "\f138";
+    $font-Flaticon-keytar-1: "\f139";
+    $font-Flaticon-lute: "\f13a";
+    $font-Flaticon-mandolin: "\f13b";
+    $font-Flaticon-maracas: "\f13c";
+    $font-Flaticon-marimba: "\f13d";
+    $font-Flaticon-mouth-harp: "\f13e";
+    $font-Flaticon-multi-neck-guitar: "\f13f";
+    $font-Flaticon-oboe: "\f140";
+    $font-Flaticon-oboe-1: "\f141";
+    $font-Flaticon-ocarina: "\f142";
+    $font-Flaticon-omnichord: "\f143";
+    $font-Flaticon-organ: "\f144";
+    $font-Flaticon-organ-1: "\f145";
+    $font-Flaticon-organ-2: "\f146";
+    $font-Flaticon-percussion-instrument: "\f147";
+    $font-Flaticon-percussion-instruments: "\f148";
+    $font-Flaticon-piano: "\f149";
+    $font-Flaticon-piccolo: "\f14a";
+    $font-Flaticon-psaltery: "\f14b";
+    $font-Flaticon-resonator-guitar: "\f14c";
+    $font-Flaticon-santoor: "\f14d";
+    $font-Flaticon-saw: "\f14e";
+    $font-Flaticon-saxophone: "\f14f";
+    $font-Flaticon-shaker: "\f150";
+    $font-Flaticon-singing-bowl: "\f151";
+    $font-Flaticon-sitar: "\f152";
+    $font-Flaticon-spanish-guitar: "\f153";
+    $font-Flaticon-steel-guitar: "\f154";
+    $font-Flaticon-stylophone: "\f155";
+    $font-Flaticon-tambourine: "\f156";
+    $font-Flaticon-tambourine-1: "\f157";
+    $font-Flaticon-theremin: "\f158";
+    $font-Flaticon-triangle: "\f159";
+    $font-Flaticon-trombone: "\f15a";
+    $font-Flaticon-trumpet: "\f15b";
+    $font-Flaticon-tuba: "\f15c";
+    $font-Flaticon-ukelele: "\f15d";
+    $font-Flaticon-veena: "\f15e";
+    $font-Flaticon-vihuela: "\f15f";
+    $font-Flaticon-violin: "\f160";
+    $font-Flaticon-whistle: "\f161";
+    $font-Flaticon-wood-block: "\f162";
+    $font-Flaticon-xylophone: "\f163";

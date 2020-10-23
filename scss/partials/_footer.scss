@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    color: $textColor;
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 1.5em;
+    a{
+        color: #429a87;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    p{
+        margin: 0;
+    }
+}
+.copy{
+    font-size:0.8em;
+}
+.bugreport{
+    margin-bottom: 0.8em;
+}
+
+
+@media (min-width: 1200px){
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+        .bugreport{
+            margin: 0;
+        }
+    }
+}

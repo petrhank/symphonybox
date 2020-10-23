@@ -1,0 +1,104 @@
+hr{
+    margin: 0;
+    height: 2px;
+    border: none;
+    background-image: linear-gradient($mainColor,$darkenedMainColor);;
+}
+
+.instruments{
+    background: $darkenedMainColor;
+    color: $textColor;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 1em;
+    margin-bottom: 4em;
+    column-gap: 1em;
+    h2{
+        align-self: center;
+    }
+}
+
+#all{
+    @include btnGeneral;
+    justify-self: end;
+    align-self: center;
+    grid-column: span 2/-1;
+    opacity: 0.5;
+    padding: 0.5em;
+    border-radius: 5px;
+    background: $mainColor;
+}
+
+section{
+    font-size: 1rem;
+    align-content: flex-start;
+    border-top: 2px solid $mainColor;
+    grid-column: 1/-1;
+    column-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    padding: 1em 0;
+    h3{
+        margin: 0;
+        grid-column: 1/-1;
+        justify-self: start;
+    }
+    button{
+        @include btnGeneral;
+        margin: 0.8em 0;
+        font-size: 0.8em;
+        padding: 0;
+        background: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0.5;
+
+        i{
+            font-size: 3.8em;
+            padding: 0.2em 0.3em;
+            margin-bottom: 0.2em;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            background: $mainColor;
+        }
+    }
+}
+
+@media (min-width: 750px){
+    section{
+        grid-column: span 2;
+        column-gap: 1.5em;
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        button{
+            font-size: 0.9em;
+            i{
+                font-size: 3em;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px){
+    .instruments {
+        margin-bottom: 0;
+        h2{
+            margin: 0.5em 0;
+        }
+    }
+    section{
+        padding: 0.5em 0;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        column-gap: 1em;
+        grid-column: span 1;
+        button{
+            font-size: 0.8em;
+            i{
+                font-size: 2.5em;
+            }
+        }
+
+    }
+}
+

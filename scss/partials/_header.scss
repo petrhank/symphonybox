@@ -1,0 +1,45 @@
+header{
+    font-size: 1.2rem;
+    background: $mainColor;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: $mHeaderHeight;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 200ms;
+    h1{
+        a{
+            color: $textColor;
+            text-decoration: none;
+        }
+        margin: 0;
+        transition: inherit;
+        // text-transform: uppercase;
+    }
+}
+
+.scrolled{
+    transform:translateY(-50%);
+    h1{
+        transform: scale(0.7) translateY(45%);
+    }
+}
+
+
+
+@media (min-width: 1200px){
+    header{
+        margin-left: 0.5em;
+        font-size: 3rem;
+        position: static;
+        grid-area: 1/1/3/2;
+        background: none;
+        width: auto;
+        justify-self: start;
+        align-self: center;
+        z-index: 1;
+    }
+}

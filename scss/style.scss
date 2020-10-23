@@ -1,0 +1,22 @@
+@import "partials/_core.scss";
+@import "partials/_variables.scss";
+@import "partials/_mixins.scss";
+
+@import "partials/header";
+@import "partials/instruments";
+@import "partials/topArea";
+@import "partials/footer";
+
+body{
+    font-family: Comfortaa;
+    background: $darkenedMainColor;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@media (min-width: 1200px){
+    button{
+        @include btnHover;
+    }
+}
