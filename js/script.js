@@ -1,27 +1,10 @@
 
-//////////////////////////////////////////////////////////////////
-
 function init(){
     addInstruments();
     createPlayStopBtn();
     addAllBtn();
     createHintBtn();
 };
-
-
-// function whatLang(){
-//     let lang = document.querySelector("html").getAttribute("lang");
-//     if(lang === "cs"){
-//         instruments.forEach(function(instrument){
-//             instrument.textContent = instrument.textContentCs;
-//         });
-//     }
-//     else{
-//         instruments.forEach(function(instrument){
-//             instrument.textContent = instrument.textContentEn;
-//         });
-//     }
-// };
 
 function createPlayStopBtn(){                     //PŘIDÁ TLAČÍTKO PLAY/STOP
  

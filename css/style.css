@@ -146,7 +146,7 @@ hr {
 
 section {
   font-size: 1rem;
-  align-content: flex-start;
+  align-content: start;
   border-top: 2px solid #1f3c49;
   grid-column: 1/-1;
   column-gap: 1em;
@@ -234,7 +234,10 @@ section button i {
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: 5rem 1fr auto auto;
-  grid-template-areas: "mheader mheader" "overlay overlay" "overlay overlay" "overlay overlay";
+  grid-template-areas: "mheader mheader"
+ "overlay overlay"
+ "overlay overlay"
+ "overlay overlay";
   align-items: center;
   align-content: center;
 }
